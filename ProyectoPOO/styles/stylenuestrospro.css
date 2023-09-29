@@ -1,0 +1,43 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .formulario {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formulario button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
